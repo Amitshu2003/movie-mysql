@@ -29,8 +29,8 @@ db.connect((err) => {
         CREATE TABLE IF NOT EXISTS movies(
           id INT AUTO_INCREMENT PRIMARY KEY,
           title VARCHAR(255) NOT NULL,
-          year VARCHAR(4) NOT NULL,
-          type VARCHAR(25) NOT NULL,
+          year VARCHAR(255) NOT NULL,
+          type VARCHAR(255) NOT NULL,
           image TEXT(20000) NOT NULL
         )
       `;
